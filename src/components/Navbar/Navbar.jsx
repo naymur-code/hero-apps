@@ -58,7 +58,7 @@ const Navbar = () => {
         </div>
         <div className="navbar-end">
           <Link to={"https://github.com/naymur-code/hero-apps"}>
-            <button className="btn   bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white">
+            <button className="btn bg-linear-to-r from-[#632EE3] to-[#9F62F2] text-white">
               <Github width="20px" />
               <span>Contribute</span>
             </button>
