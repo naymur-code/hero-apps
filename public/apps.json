@@ -1,0 +1,272 @@
+[
+  {
+    "image": "https://play-lh.googleusercontent.com/zh8sZANwBIkQjfhzc0CXEFkSywW23TMGBMrNHG38tw6gzWQg2gzmswe3GRb4pQTFed4=w240-h480-rw",
+    "title": "GameBoost",
+    "companyName": "PlayWare",
+    "id": 1,
+    "description": "Optimize your phone for gaming performance, reduce lag, and improve FPS instantly.",
+    "size": 39,
+    "reviews": 15700,
+    "ratingAvg": 4.6,
+    "downloads": 3100000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 900 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 4600 },
+      { "name": "5 star", "count": 9500 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/piRTQvTJll-DBZ0iSP6T7K1Z3Jqq-1VvNb3XYm8D2ydmjG9i6cdV2Un0sEgguH7CS3E=w240-h480-rw",
+    "title": "PhotoLab Pro",
+    "companyName": "PixelArt Labs",
+    "id": 2,
+    "description": "Edit, filter, and enhance your photos with AI-powered effects and easy-to-use tools.",
+    "size": 92,
+    "reviews": 28590,
+    "ratingAvg": 4.8,
+    "downloads": 5400000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1400 },
+      { "name": "3 star", "count": 3000 },
+      { "name": "4 star", "count": 6200 },
+      { "name": "5 star", "count": 18000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/_n0RqG5kDCNj-66BCciv9wdPWfHlFLUj12YOkzGNcw_3NQcFVwNRftaa8ogONJu4Gfc=w240-h480-rw",
+    "title": "FitBuddy",
+    "companyName": "MoveWell Inc.",
+    "id": 3,
+    "description": "A complete fitness companion that helps track workouts, monitor calories, and achieve health goals.",
+    "size": 64,
+    "reviews": 19876,
+    "ratingAvg": 4.4,
+    "downloads": 2500000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 1500 },
+      { "name": "3 star", "count": 3100 },
+      { "name": "4 star", "count": 5200 },
+      { "name": "5 star", "count": 8856 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/VnhuCMAUD2hRw5YrjypQLHYeDZcNAKBZLhnwGNAnpvv2v_Y_MdlhoWBaITErEjwlzkRf=w240-h480-rw",
+    "title": "NoteCraft",
+    "companyName": "MindFlow Apps",
+    "id": 4,
+    "description": "A sleek and modern note-taking app that syncs across all devices for seamless writing.",
+    "size": 34,
+    "reviews": 7890,
+    "ratingAvg": 4.5,
+    "downloads": 890000,
+    "ratings": [
+      { "name": "1 star", "count": 320 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 800 },
+      { "name": "4 star", "count": 2100 },
+      { "name": "5 star", "count": 4060 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/S5cHQc3S-_idZUyHtxxup7PlZ1mr7kjYVkuiB8klEIqm2OdotHkK1Dwyym-HorMDSbc=w240-h480-rw",
+    "title": "TravelMate",
+    "companyName": "WanderWorks",
+    "id": 5,
+    "description": "Your ultimate travel planner — explore destinations, plan itineraries, and track budgets effortlessly.",
+    "size": 85,
+    "reviews": 34210,
+    "ratingAvg": 4.7,
+    "downloads": 7600000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 2800 },
+      { "name": "4 star", "count": 6100 },
+      { "name": "5 star", "count": 23000 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/CkhhpUrdk6GU37gKLQ6JD2UC30jVwSiyBkyTqNmWq1wBMADwXL9W_DO5NNDuwZFS3a4=w240-h480-rw",
+    "title": "FoodieFinder",
+    "companyName": "Delish Labs",
+    "id": 6,
+    "description": "Discover the best restaurants near you, explore cuisines, and share dining experiences.",
+    "size": 58,
+    "reviews": 22340,
+    "ratingAvg": 4.3,
+    "downloads": 3200000,
+    "ratings": [
+      { "name": "1 star", "count": 1600 },
+      { "name": "2 star", "count": 1800 },
+      { "name": "3 star", "count": 3400 },
+      { "name": "4 star", "count": 5700 },
+      { "name": "5 star", "count": 9800 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/gOyGQBjmHekH3Nef5JI5-mI3JUGtrsoxknzIF_2D_4HjKpFVy1jI_dAgo7JFF-X88cE=w240-h480-rw",
+    "title": "BudgetEase",
+    "companyName": "FinGrow LLC",
+    "id": 7,
+    "description": "Manage expenses, track bills, and achieve your financial goals with this intuitive budgeting app.",
+    "size": 41,
+    "reviews": 15560,
+    "ratingAvg": 4.2,
+    "downloads": 2100000,
+    "ratings": [
+      { "name": "1 star", "count": 1300 },
+      { "name": "2 star", "count": 1600 },
+      { "name": "3 star", "count": 3100 },
+      { "name": "4 star", "count": 4600 },
+      { "name": "5 star", "count": 4960 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/NfvFoGHGQsjqVn0o6DqY-ykCa-rDrYaVdJ8al2tejcY8XsoFqky8MtJ6omB0EIQxcNEl=w240-h480-rw",
+    "title": "MusicHub",
+    "companyName": "SonicWare",
+    "id": 8,
+    "description": "Stream, download, and share your favorite music with millions of tracks available globally.",
+    "size": 73,
+    "reviews": 60432,
+    "ratingAvg": 4.9,
+    "downloads": 19000000,
+    "ratings": [
+      { "name": "1 star", "count": 1200 },
+      { "name": "2 star", "count": 2000 },
+      { "name": "3 star", "count": 3600 },
+      { "name": "4 star", "count": 9300 },
+      { "name": "5 star", "count": 44332 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/Nwep1ueyQ3HXNsyCKiK85CYUDgvMq9Em-40rX8yGZi_74ZRa-w_5lZIKgJgD4F6b7w=w240-h480-rw",
+    "title": "EduLearn",
+    "companyName": "SmartSchool Co.",
+    "id": 9,
+    "description": "Interactive learning app with video courses, quizzes, and certifications for all age groups.",
+    "size": 105,
+    "reviews": 37600,
+    "ratingAvg": 4.6,
+    "downloads": 4500000,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1300 },
+      { "name": "3 star", "count": 3100 },
+      { "name": "4 star", "count": 7600 },
+      { "name": "5 star", "count": 26600 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/xStBcJPuPBtrPnQi8swLwib0wnIQOZp2J7ckVAj7NHXHcJBAg4IiwRbYxAHd4Cj2TQ=w240-h480-rw",
+    "title": "WeatherNow",
+    "companyName": "SkyTech Global",
+    "id": 10,
+    "description": "Stay informed with real-time weather updates, forecasts, and storm alerts anywhere in the world.",
+    "size": 28,
+    "reviews": 9050,
+    "ratingAvg": 4.1,
+    "downloads": 1300000,
+    "ratings": [
+      { "name": "1 star", "count": 1000 },
+      { "name": "2 star", "count": 1400 },
+      { "name": "3 star", "count": 2100 },
+      { "name": "4 star", "count": 2200 },
+      { "name": "5 star", "count": 2350 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/0xH1VoTx3inyDPwC3sVJFlykSPQmrHZOEdI449beljYsDzYm4YE5k0pzN4DzQbyhTQ=w240-h480-rw",
+    "title": "MindPeace",
+    "companyName": "CalmSphere",
+    "id": 11,
+    "description": "Meditation and sleep app with guided sessions, nature sounds, and daily mindfulness practices.",
+    "size": 54,
+    "reviews": 18540,
+    "ratingAvg": 4.8,
+    "downloads": 4200000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 700 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 3000 },
+      { "name": "5 star", "count": 12740 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/UxIJEGNjCqIyT0G6juqFUyEv7PcIildbwJSkDzZ77IkoR-oYdDyqVjfAg6CJwUEletw=w240-h480-rw",
+    "title": "ShopSmart",
+    "companyName": "EcomWorks",
+    "id": 12,
+    "description": "Shop from thousands of online stores, compare prices, and save money with cashback offers.",
+    "size": 79,
+    "reviews": 28900,
+    "ratingAvg": 4.4,
+    "downloads": 6800000,
+    "ratings": [
+      { "name": "1 star", "count": 1300 },
+      { "name": "2 star", "count": 1700 },
+      { "name": "3 star", "count": 2900 },
+      { "name": "4 star", "count": 5600 },
+      { "name": "5 star", "count": 17200 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/zMLXsAJdXggqSSgJmaMTEP4BNfwrNEVbA5aDh9oHLSumCzMJA8NAOy-WW8nbj2TP84bWGSOPUKeHGUaTuRrDBA=w240-h480-rw",
+    "title": "SecureVault",
+    "companyName": "CyberSafe Labs",
+    "id": 13,
+    "description": "Protect your passwords, files, and digital identity with military-grade encryption.",
+    "size": 52,
+    "reviews": 8700,
+    "ratingAvg": 4.5,
+    "downloads": 1250000,
+    "ratings": [
+      { "name": "1 star", "count": 400 },
+      { "name": "2 star", "count": 600 },
+      { "name": "3 star", "count": 1200 },
+      { "name": "4 star", "count": 2200 },
+      { "name": "5 star", "count": 4300 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/_KGljQrkYPlNKVQlfFNFGOQxGb0VP5GbJ6_RjT422w1NUa4uxWJupFyn3e2u_AuF5X37=w240-h480-rw",
+    "title": "CookBookie",
+    "companyName": "HomeTaste Inc.",
+    "id": 14,
+    "description": "Discover recipes, meal plans, and cooking tips from world-class chefs and food lovers.",
+    "size": 69,
+    "reviews": 19780,
+    "ratingAvg": 4.3,
+    "downloads": 2600000,
+    "ratings": [
+      { "name": "1 star", "count": 900 },
+      { "name": "2 star", "count": 1100 },
+      { "name": "3 star", "count": 2700 },
+      { "name": "4 star", "count": 4400 },
+      { "name": "5 star", "count": 8680 }
+    ]
+  },
+  {
+    "image": "https://play-lh.googleusercontent.com/ewf9oEDvVIQ6fX6FeDwXpOBDaOrDrTzey3RRdhzZBx0SEN4hsvujlAHLlpvQNL6lA2A=w240-h480-rw",
+    "title": "PhotoSnap Studio",
+    "companyName": "PixelWave Labs",
+    "id": 15,
+    "description": "A creative photo editing and sharing app offering AI-based filters, retouch tools, and community galleries.",
+    "size": 62,
+    "reviews": 18421,
+    "ratingAvg": 4.7,
+    "downloads": 2400000,
+    "ratings": [
+      { "name": "1 star", "count": 600 },
+      { "name": "2 star", "count": 800 },
+      { "name": "3 star", "count": 1500 },
+      { "name": "4 star", "count": 3800 },
+      { "name": "5 star", "count": 10721 }
+    ]
+  }
+]

@@ -1,17 +1,21 @@
 import React from "react";
+import { useLoaderData } from "react-router";
 import Card from "../../components/Card/Card";
 
 const Apps = () => {
+  const apps = useLoaderData();
   return (
     <div>
       <div className="text-center p-5 my-10 ">
-        <h2 className="md:text-5xl text-4xl my-4 font-semibold">Our All Applications</h2>
+        <h2 className="md:text-5xl text-4xl my-4 font-semibold">
+          Our All Applications
+        </h2>
         <p>
           Explore All Apps on the Market developed by us. We code for Millions
         </p>
       </div>
       <div className="flex flex-col md:flex-row gap-6 justify-between mb-5">
-        <h3 className="font-bold md:text-2xl text-xl">(132) Apps Found</h3>
+        <h3 className="font-bold md:text-2xl text-xl">({apps.length}) Apps Found</h3>
         <label className="input">
           <svg
             className="h-[1em] opacity-50"
@@ -33,22 +37,9 @@ const Apps = () => {
         </label>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-4 gap-5 my-10">
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
-        <Card></Card>
+        {apps.map((app) => (
+          <Card app={app} key={app.id}></Card>
+        ))}
       </div>
     </div>
   );

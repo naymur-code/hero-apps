@@ -2,6 +2,7 @@ import React from "react";
 import appstore from "../../assets/appstore.png";
 import playstore from "../../assets/playstore.png";
 import hero from "../../assets/hero.png";
+import { Link } from "react-router";
 
 const Hero = () => {
   return (
@@ -19,18 +20,23 @@ const Hero = () => {
       </div>
 
       <div className="flex gap-5 my-6">
-        <button className="btn flex items-center">
-          <span>
-            <img width="20px" src={playstore} alt="" />
-          </span>
-          Google Play
-        </button>
-        <button className="btn flex items-center">
-          <span>
-            <img width="20px" src={appstore} alt="" />
-          </span>
-          App Store
-        </button>
+        <Link to="https://play.google.com/store/apps/details?id=com.learnprogramming.codecamp&hl=en">
+          <button className="btn flex items-center">
+            <span>
+              <img width="20px" src={playstore} alt="" />
+            </span>
+            Google Play
+          </button>
+        </Link>
+
+        <Link to="https://apps.apple.com/us/app/programming-hero-coding-fun/id1478201849">
+          <button className="btn flex items-center">
+            <span>
+              <img width="20px" src={appstore} alt="" />
+            </span>
+            App Store
+          </button>
+        </Link>
       </div>
       <img src={hero} alt="hero" />
       <div className="bg-linear-to-r from-[#632EE3] to-[#9F62F2]  text-white w-screen">
