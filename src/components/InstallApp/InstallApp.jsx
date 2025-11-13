@@ -1,13 +1,14 @@
 import { ArrowDownToLine, Star } from "lucide-react";
 import React from "react";
+import app from '../../assets/demo-app (1).webp'
 
 const InstallApp = () => {
   return (
     <div className="flex flex-col md:flex-row gap-5 items-center justify-between shadow border-1 p-4 border-gray-200">
       <div className="md:flex gap-4">
-        <div className="md:w-30">
+        <div className="md:w-20 flex justify-center">
           <img
-            src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+            src={app}
             alt=""
           />
         </div>

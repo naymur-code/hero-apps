@@ -1,4 +1,5 @@
 import { ArrowDownToLine, Star } from "lucide-react";
+import app from '../../assets/demo-app (1).webp'
 import React from "react";
 
 const Card = () => {
@@ -6,7 +7,7 @@ const Card = () => {
     <div className="card bg-base-100  shadow-sm">
       <figure>
         <img
-          src="https://img.daisyui.com/images/stock/photo-1606107557195-0e29a4b5b4aa.webp"
+          src={app}
           alt="Shoes"
         />
       </figure>
