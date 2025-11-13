@@ -5,16 +5,18 @@ import hero from "../../assets/hero.png";
 
 const Hero = () => {
   return (
-    <div className="flex flex-col gap-2 justify-center items-center md:p-20 p-6">
-      <h1 className="text-[#001931] md:text-6xl text-4xl font-bold text-center">
-        We Build <br />
-        <span className="text-[#632EE3]">Productive</span> Apps
-      </h1>
-      <p className="text-[#001931ab] md:w-3/4 text-center my-4">
-        At HERO.IO, we craft innovative apps designed to make everyday life
-        simpler, smarter, and more exciting.Our goal is to turn your ideas into
-        digital experiences that truly make an impact.
-      </p>
+    <div className="flex flex-col justify-center items-center">
+      <div className="md:pt-20  pt-10 text-center">
+        <h1 className="text-[#001931] md:text-6xl text-5xl font-bold text-center">
+          We Build <br />
+          <span className="text-[#632EE3]">Productive</span> Apps
+        </h1>
+        <p className="text-[#001931ab] md:w-3/4 mx-auto my-4">
+          At HERO.IO, we craft innovative apps designed to make everyday life
+          simpler, smarter, and more exciting.Our goal is to turn your ideas
+          into digital experiences that truly make an impact.
+        </p>
+      </div>
 
       <div className="flex gap-5 my-6">
         <button className="btn flex items-center">
@@ -31,6 +33,30 @@ const Hero = () => {
         </button>
       </div>
       <img src={hero} alt="hero" />
+      <div className="bg-linear-to-r from-[#632EE3] to-[#9F62F2]  text-white w-screen">
+        <div className="container mx-auto">
+          <h2 className="md:text-5xl text-4xl font-bold md:p-14 p-8 text-center">
+            Trusted by Millions, Built for You
+          </h2>
+          <div className="flex md:flex-row flex-col gap-6 items-center justify-between py-7">
+            <div className="text-center ">
+              <p>Total Downloads</p>
+              <h1 className="md:text-5xl text-3xl font-bold my-3">29.6M</h1>
+              <p>21% more than last month</p>
+            </div>
+            <div className="text-center">
+              <p>Total Reviews</p>
+              <h1 className="md:text-5xl text-3xl font-bold my-3">906K</h1>
+              <p>46% more than last month</p>
+            </div>
+            <div className="text-center">
+              <p>Active Apps</p>
+              <h1 className="md:text-5xl text-3xl font-bold my-3">132+</h1>
+              <p>31 more will Launch</p>
+            </div>
+          </div>
+        </div>
+      </div>
     </div>
   );
 };
