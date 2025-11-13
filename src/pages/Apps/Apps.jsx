@@ -1,11 +1,57 @@
-import React from 'react';
+import React from "react";
+import Card from "../../components/Card/Card";
 
 const Apps = () => {
-    return (
-        <div>
-            <h1>apps</h1>
-        </div>
-    );
+  return (
+    <div>
+      <div className="text-center p-5 my-10 ">
+        <h2 className="md:text-5xl text-4xl my-4 font-semibold">Our All Applications</h2>
+        <p>
+          Explore All Apps on the Market developed by us. We code for Millions
+        </p>
+      </div>
+      <div className="flex flex-col md:flex-row gap-6 justify-between mb-5">
+        <h3 className="font-bold md:text-2xl text-xl">(132) Apps Found</h3>
+        <label className="input">
+          <svg
+            className="h-[1em] opacity-50"
+            xmlns="http://www.w3.org/2000/svg"
+            viewBox="0 0 24 24"
+          >
+            <g
+              strokeLinejoin="round"
+              strokeLinecap="round"
+              strokeWidth="2.5"
+              fill="none"
+              stroke="currentColor"
+            >
+              <circle cx="11" cy="11" r="8"></circle>
+              <path d="m21 21-4.3-4.3"></path>
+            </g>
+          </svg>
+          <input type="search" required placeholder="Search" />
+        </label>
+      </div>
+      <div className="grid grid-cols-1 md:grid-cols-4 gap-5 my-10">
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+        <Card></Card>
+      </div>
+    </div>
+  );
 };
 
 export default Apps;
