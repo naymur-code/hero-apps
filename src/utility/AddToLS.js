@@ -12,12 +12,6 @@ const getItems = () => {
 const addItem = (id) => {
   const items = getItems();
   if (items.includes(id)) {
-    Swal.fire({
-  icon: "error",
-  title: "Install This App",
-  text: "Something went wrong!",
-  footer: '<a href="#">Why do I have this issue?</a>'
-});
     return;
   } else {
     items.push(id);
@@ -31,4 +25,13 @@ const addItem = (id) => {
   }
 };
 
-export { getItems, addItem };
+const removeItem = (id) => {
+  const allItems = getItems();
+  const items = allItems.filter((item) => item !== id);
+  const newItems = JSON.stringify(items);
+  localStorage.setItem("selectApps", newItems);
+
+  console.log(id, newItems);
+};
+
+export { getItems, addItem, removeItem };

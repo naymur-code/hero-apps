@@ -1,9 +1,18 @@
 import React from "react";
-import { useLoaderData } from "react-router";
+import { useLoaderData, useNavigation } from "react-router";
 import Card from "../../components/Card/Card";
 
 const Apps = () => {
   const apps = useLoaderData();
+  // loading spanner use
+  const navigation = useNavigation();
+  if (navigation.state === "loading") {
+    return (
+      <div className="flex justify-center p-5">
+        <span className="loading loading-bars loading-xl"></span>
+      </div>
+    );
+  }
   return (
     <div>
       <div className="text-center p-5 my-10 ">
@@ -15,7 +24,9 @@ const Apps = () => {
         </p>
       </div>
       <div className="flex flex-col md:flex-row gap-6 justify-between mb-5">
-        <h3 className="font-bold md:text-2xl text-xl">({apps.length}) Apps Found</h3>
+        <h3 className="font-bold md:text-2xl text-xl">
+          ({apps.length}) Apps Found
+        </h3>
         <label className="input">
           <svg
             className="h-[1em] opacity-50"

@@ -1,7 +1,7 @@
 import { ArrowDownToLine, MessageSquareHeart, Star } from "lucide-react";
 import { useLoaderData, useParams } from "react-router";
-import { addItem } from "../../utility/AddToLS";
-import { useState } from "react";
+import { addItem, getItems } from "../../utility/AddToLS";
+import { useEffect, useState } from "react";
 
 const AppDetails = () => {
   const [disable, setDisable] = useState(false);
@@ -13,7 +13,18 @@ const AppDetails = () => {
 
   const { image, title, downloads, ratingAvg, reviews } = selectApp;
 
-  console.log(apps, id);
+  const handleInstall = () => {
+    addItem(selectApp.id);
+    setDisable(true);
+  };
+
+  useEffect(() => {
+    const items = getItems();
+    const itemF = items.find((i) => i === id);
+    if (itemF) {
+      setDisable(true);
+    }
+  }, []);
 
   return (
     <div className="my-20">
@@ -46,10 +57,7 @@ const AppDetails = () => {
             </div>
           </div>
           <button
-            onClick={() => {
-              addItem(selectApp.id);
-              setDisable(true);
-            }}
+            onClick={handleInstall}
             class="btn btn-success my-5 text-white"
             disabled={disable}
           >

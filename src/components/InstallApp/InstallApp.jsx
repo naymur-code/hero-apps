@@ -1,7 +1,7 @@
 import { ArrowDownToLine, Star } from "lucide-react";
 import React from "react";
 
-const InstallApp = ({app}) => {
+const InstallApp = ({app,handleUninstall}) => {
   const {image,title, downloads, ratingAvg}=app
   return (
     <div className="flex flex-col md:flex-row gap-5 items-center justify-between shadow border-1 p-4 border-gray-200">
@@ -25,7 +25,7 @@ const InstallApp = ({app}) => {
           </div>
         </div>
       </div>
-      <button class="btn btn-success text-white">Uninstall</button>
+      <button class="btn btn-success text-white" onClick={()=>handleUninstall(app.id)}>Uninstall</button>
 
     </div>
   );
