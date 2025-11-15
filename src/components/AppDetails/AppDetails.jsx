@@ -2,6 +2,7 @@ import { ArrowDownToLine, MessageSquareHeart, Star } from "lucide-react";
 import { useLoaderData, useParams } from "react-router";
 import { addItem, getItems } from "../../utility/AddToLS";
 import { useEffect, useState } from "react";
+import Chart from "./Chart";
 
 const AppDetails = () => {
   const [disable, setDisable] = useState(false);
@@ -11,7 +12,7 @@ const AppDetails = () => {
 
   const selectApp = apps.find((app) => app.id === id);
 
-  const { image, title, downloads, ratingAvg, reviews } = selectApp;
+  const { image, title, downloads, ratingAvg, description,reviews } = selectApp;
 
   const handleInstall = () => {
     addItem(selectApp.id);
@@ -28,7 +29,7 @@ const AppDetails = () => {
 
   return (
     <div className="my-20">
-      <div className="flex items-center gap-5">
+      <div className="md:flex items-center gap-5">
         <div>
           <img src={image} alt="" className="md:w-80" />
         </div>
@@ -38,7 +39,7 @@ const AppDetails = () => {
             Developed by <span className="text-indigo-500">productive.io</span>
           </p>
           <hr className="border border-gray-200 my-3" />
-          <div className="flex gap-30">
+          <div className="md:flex gap-30">
             <div className="space-y-4">
               <ArrowDownToLine className="text-green-400" />
               <p>Downloads</p>
@@ -64,6 +65,13 @@ const AppDetails = () => {
             Install
           </button>
         </div>
+      </div>
+
+      <Chart selectApp={selectApp.ratings}></Chart>
+
+      <div>
+        <h3 className="text-3xl font-bold">Description</h3>
+        <p className="my-4">{description}</p>
       </div>
     </div>
   );

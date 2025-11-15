@@ -4,11 +4,11 @@
     "title": "GameBoost",
     "companyName": "PlayWare",
     "id": 1,
-    "description": "Optimize your phone for gaming performance, reduce lag, and improve FPS instantly.",
+    "description": "GameBoost is designed for gamers who want the smoothest and most optimized mobile performance. This advanced game-acceleration tool intelligently analyzes your device hardware, closes unnecessary background apps, frees RAM, and fine-tunes system processes to reduce lag and improve frame rates. Whether you're playing casual games or high-intensity competitive titles, GameBoost ensures your device stays cool and responsive. With just one tap, users can activate Turbo Mode to minimize latency and enhance stability. The app also provides real-time performance monitoring, allowing you to track CPU, GPU, and memory usage in detail. Its lightweight interface makes it easy for beginners yet powerful enough for advanced players. For serious gamers, GameBoost offers customizable profiles, long-session optimization, and FPS tracking tools. If you want better speed, smoother gameplay, and a cleaner device, GameBoost is the ultimate performance companion.",
     "size": 39,
     "reviews": 15700,
     "ratingAvg": 4.6,
-    "downloads": 3100000,
+    "downloads": 57432,
     "ratings": [
       { "name": "1 star", "count": 600 },
       { "name": "2 star", "count": 900 },
@@ -22,11 +22,11 @@
     "title": "PhotoLab Pro",
     "companyName": "PixelArt Labs",
     "id": 2,
-    "description": "Edit, filter, and enhance your photos with AI-powered effects and easy-to-use tools.",
+    "description": "PhotoLab Pro is a powerful and beautifully designed photo editing app built for beginners and professionals alike. With AI-powered filters, one-tap enhancements, and a large library of creative effects, users can transform everyday shots into stunning artwork. The app includes tools for retouching portraits, adjusting lighting, removing backgrounds, and applying cinematic color grading. Advanced users can make fine-level adjustments with curves, HSL sliders, and selective editing tools. PhotoLab Pro supports high-resolution export and gives you full control over clarity, saturation, and depth. A modern interface ensures smooth navigation, while guided tutorials help new users master editing techniques quickly. Whether you're editing for social media, photography projects, or personal memories, PhotoLab Pro delivers professional-quality results on your mobile device.",
     "size": 92,
     "reviews": 28590,
     "ratingAvg": 4.8,
-    "downloads": 5400000,
+    "downloads": 98214,
     "ratings": [
       { "name": "1 star", "count": 900 },
       { "name": "2 star", "count": 1400 },
@@ -40,11 +40,11 @@
     "title": "FitBuddy",
     "companyName": "MoveWell Inc.",
     "id": 3,
-    "description": "A complete fitness companion that helps track workouts, monitor calories, and achieve health goals.",
+    "description": "FitBuddy is your complete fitness companion, designed to help you achieve your health goals with structured guidance and real-time progress tracking. Whether you're a beginner starting your fitness journey or an experienced athlete, FitBuddy adapts to your needs. The app includes personalized workout plans, calorie tracking, hydration reminders, and step monitoring. Its AI engine analyzes your daily activity to provide tailored recommendations that boost performance and consistency. Track your strength training progress, cardio sessions, and weekly improvements with easy-to-read charts. FitBuddy also features a built-in meal planner with healthy recipes and nutritional insights. Stay motivated with achievement badges, community challenges, and detailed analytics that help you understand your body better. With FitBuddy, every workout counts toward a healthier lifestyle.",
     "size": 64,
     "reviews": 19876,
     "ratingAvg": 4.4,
-    "downloads": 2500000,
+    "downloads": 56219,
     "ratings": [
       { "name": "1 star", "count": 1200 },
       { "name": "2 star", "count": 1500 },
@@ -58,11 +58,11 @@
     "title": "NoteCraft",
     "companyName": "MindFlow Apps",
     "id": 4,
-    "description": "A sleek and modern note-taking app that syncs across all devices for seamless writing.",
+    "description": "NoteCraft is a sleek, modern note-taking app designed for students, professionals, and creators who value clarity and organization. With cloud syncing across all devices, your notes are always available whenever you need them. Write effortlessly using text, checklists, or voice notes, and organize information with folders, color tags, and priority markers. The interface is distraction-free, making it ideal for capturing ideas, journaling, or outlining projects. NoteCraft supports offline access, PDF exporting, cross-platform syncing, and collaboration features that allow you to share notes with others in real time. Whether you're studying, planning, or brainstorming, NoteCraft helps you stay productive and organized.",
     "size": 34,
     "reviews": 7890,
     "ratingAvg": 4.5,
-    "downloads": 890000,
+    "downloads": 45321,
     "ratings": [
       { "name": "1 star", "count": 320 },
       { "name": "2 star", "count": 600 },
@@ -71,16 +71,17 @@
       { "name": "5 star", "count": 4060 }
     ]
   },
+
   {
     "image": "https://play-lh.googleusercontent.com/S5cHQc3S-_idZUyHtxxup7PlZ1mr7kjYVkuiB8klEIqm2OdotHkK1Dwyym-HorMDSbc=w240-h480-rw",
     "title": "TravelMate",
     "companyName": "WanderWorks",
     "id": 5,
-    "description": "Your ultimate travel planner — explore destinations, plan itineraries, and track budgets effortlessly.",
+    "description": "TravelMate is the perfect digital assistant for travelers who want well-organized and stress-free adventures. The app helps you plan trips, build itineraries, explore destinations, and track your travel budget effortlessly. With its smart search, TravelMate suggests flights, hotels, and activities based on your preferences. You can store travel documents, create packing lists, and get real-time weather updates. The built-in expense tracker ensures you stay within budget, while the offline mode keeps important information accessible anywhere in the world. Whether you're going on a family vacation, business trip, or solo adventure, TravelMate helps make every journey memorable and easy to manage.",
     "size": 85,
     "reviews": 34210,
     "ratingAvg": 4.7,
-    "downloads": 7600000,
+    "downloads": 98122,
     "ratings": [
       { "name": "1 star", "count": 900 },
       { "name": "2 star", "count": 1300 },
@@ -89,16 +90,17 @@
       { "name": "5 star", "count": 23000 }
     ]
   },
+
   {
     "image": "https://play-lh.googleusercontent.com/CkhhpUrdk6GU37gKLQ6JD2UC30jVwSiyBkyTqNmWq1wBMADwXL9W_DO5NNDuwZFS3a4=w240-h480-rw",
     "title": "FoodieFinder",
     "companyName": "Delish Labs",
     "id": 6,
-    "description": "Discover the best restaurants near you, explore cuisines, and share dining experiences.",
+    "description": "FoodieFinder helps you discover the best restaurants near you based on your taste, location, and reviews from real diners. Browse menus, view photos, read detailed ratings, and explore trending dishes from thousands of restaurants. FoodieFinder’s smart filter lets you search by cuisine, pricing, distance, or popularity. Save your favorite places, share recommendations, and keep a dining journal right inside the app. Whether you're craving something spicy, sweet, or healthy, FoodieFinder guides you to the perfect spot. Ideal for food lovers who enjoy exploring new flavors and sharing amazing restaurant experiences.",
     "size": 58,
     "reviews": 22340,
     "ratingAvg": 4.3,
-    "downloads": 3200000,
+    "downloads": 56741,
     "ratings": [
       { "name": "1 star", "count": 1600 },
       { "name": "2 star", "count": 1800 },
@@ -107,16 +109,17 @@
       { "name": "5 star", "count": 9800 }
     ]
   },
+
   {
     "image": "https://play-lh.googleusercontent.com/gOyGQBjmHekH3Nef5JI5-mI3JUGtrsoxknzIF_2D_4HjKpFVy1jI_dAgo7JFF-X88cE=w240-h480-rw",
     "title": "BudgetEase",
     "companyName": "FinGrow LLC",
     "id": 7,
-    "description": "Manage expenses, track bills, and achieve your financial goals with this intuitive budgeting app.",
+    "description": "BudgetEase is a simple yet powerful personal finance manager that helps you take control of your money. Track expenses, manage bills, set monthly budgets, and monitor your savings goals with intuitive charts and reminders. The app categorizes your spending automatically and provides insights into where your money goes. Users can create financial plans, track recurring subscriptions, and receive alerts before payments are due. Whether you're saving for a trip, reducing debt, or simply trying to spend smarter, BudgetEase gives you the clarity and discipline you need.",
     "size": 41,
     "reviews": 15560,
     "ratingAvg": 4.2,
-    "downloads": 2100000,
+    "downloads": 41239,
     "ratings": [
       { "name": "1 star", "count": 1300 },
       { "name": "2 star", "count": 1600 },
@@ -125,16 +128,17 @@
       { "name": "5 star", "count": 4960 }
     ]
   },
+
   {
     "image": "https://play-lh.googleusercontent.com/NfvFoGHGQsjqVn0o6DqY-ykCa-rDrYaVdJ8al2tejcY8XsoFqky8MtJ6omB0EIQxcNEl=w240-h480-rw",
     "title": "MusicHub",
     "companyName": "SonicWare",
     "id": 8,
-    "description": "Stream, download, and share your favorite music with millions of tracks available globally.",
+    "description": "MusicHub gives you access to millions of tracks from global artists across all genres. Stream, download, and create personalized playlists that match your mood. The app offers high-quality audio, offline mode, smart recommendations, and trending charts from around the world. Discover new artists, follow your favorites, and share your playlists with friends. MusicHub’s algorithm learns your taste and delivers the perfect music for workouts, relaxation, parties, or daily listening. With a smooth UI and fast streaming performance, MusicHub makes music enjoyable anytime, anywhere.",
     "size": 73,
     "reviews": 60432,
     "ratingAvg": 4.9,
-    "downloads": 19000000,
+    "downloads": 89431,
     "ratings": [
       { "name": "1 star", "count": 1200 },
       { "name": "2 star", "count": 2000 },
@@ -143,16 +147,17 @@
       { "name": "5 star", "count": 44332 }
     ]
   },
+
   {
     "image": "https://play-lh.googleusercontent.com/Nwep1ueyQ3HXNsyCKiK85CYUDgvMq9Em-40rX8yGZi_74ZRa-w_5lZIKgJgD4F6b7w=w240-h480-rw",
     "title": "EduLearn",
     "companyName": "SmartSchool Co.",
     "id": 9,
-    "description": "Interactive learning app with video courses, quizzes, and certifications for all age groups.",
+    "description": "EduLearn is an interactive learning platform offering video lectures, quizzes, practice exercises, and certifications. From school subjects to professional skills, EduLearn makes learning engaging and accessible for all age levels. Track your study progress, set goals, and earn badges as you complete courses. With expert instructors, structured modules, and mobile-friendly design, EduLearn makes education flexible and effective. Perfect for students, job-seekers, and lifelong learners.",
     "size": 105,
     "reviews": 37600,
     "ratingAvg": 4.6,
-    "downloads": 4500000,
+    "downloads": 76312,
     "ratings": [
       { "name": "1 star", "count": 1000 },
       { "name": "2 star", "count": 1300 },
@@ -161,16 +166,17 @@
       { "name": "5 star", "count": 26600 }
     ]
   },
+
   {
     "image": "https://play-lh.googleusercontent.com/xStBcJPuPBtrPnQi8swLwib0wnIQOZp2J7ckVAj7NHXHcJBAg4IiwRbYxAHd4Cj2TQ=w240-h480-rw",
     "title": "WeatherNow",
     "companyName": "SkyTech Global",
     "id": 10,
-    "description": "Stay informed with real-time weather updates, forecasts, and storm alerts anywhere in the world.",
+    "description": "WeatherNow provides accurate real-time weather updates, detailed forecasts, radar maps, and storm alerts. Stay informed about temperature, humidity, wind speed, and air quality wherever you go. The app includes hourly forecasts, 7-day outlooks, and severe weather notifications that help you plan your day efficiently. Whether you're preparing for travel, outdoor activities, or daily commutes, WeatherNow ensures you’re never caught off-guard. With a clean interface and global coverage, it's a reliable weather partner.",
     "size": 28,
     "reviews": 9050,
     "ratingAvg": 4.1,
-    "downloads": 1300000,
+    "downloads": 52189,
     "ratings": [
       { "name": "1 star", "count": 1000 },
       { "name": "2 star", "count": 1400 },
@@ -179,16 +185,17 @@
       { "name": "5 star", "count": 2350 }
     ]
   },
+
   {
     "image": "https://play-lh.googleusercontent.com/0xH1VoTx3inyDPwC3sVJFlykSPQmrHZOEdI449beljYsDzYm4YE5k0pzN4DzQbyhTQ=w240-h480-rw",
     "title": "MindPeace",
     "companyName": "CalmSphere",
     "id": 11,
-    "description": "Meditation and sleep app with guided sessions, nature sounds, and daily mindfulness practices.",
+    "description": "MindPeace is designed to help you relax, sleep better, and practice mindfulness through guided meditations and calming soundscapes. Explore breathing exercises, stress-relief sessions, sleep stories, and focus tracks crafted by mental-wellness experts. Create a daily meditation routine, track your progress, and discover peaceful environments to unwind. Whether you need help with anxiety, insomnia, or mental clarity, MindPeace offers soothing content that nurtures balance and well-being.",
     "size": 54,
     "reviews": 18540,
     "ratingAvg": 4.8,
-    "downloads": 4200000,
+    "downloads": 68234,
     "ratings": [
       { "name": "1 star", "count": 600 },
       { "name": "2 star", "count": 700 },
@@ -197,16 +204,17 @@
       { "name": "5 star", "count": 12740 }
     ]
   },
+
   {
     "image": "https://play-lh.googleusercontent.com/UxIJEGNjCqIyT0G6juqFUyEv7PcIildbwJSkDzZ77IkoR-oYdDyqVjfAg6CJwUEletw=w240-h480-rw",
     "title": "ShopSmart",
     "companyName": "EcomWorks",
     "id": 12,
-    "description": "Shop from thousands of online stores, compare prices, and save money with cashback offers.",
+    "description": "ShopSmart brings you the ultimate online shopping experience with access to thousands of stores, exclusive deals, and cashback rewards. Compare prices instantly, track ongoing sales, and discover trending products across electronics, fashion, home essentials, and more. The app’s smart recommendation engine ensures that you always find the best value. With secure checkout, order tracking, and personalized wishlists, ShopSmart helps you shop smarter and save more.",
     "size": 79,
     "reviews": 28900,
     "ratingAvg": 4.4,
-    "downloads": 6800000,
+    "downloads": 87412,
     "ratings": [
       { "name": "1 star", "count": 1300 },
       { "name": "2 star", "count": 1700 },
@@ -215,16 +223,17 @@
       { "name": "5 star", "count": 17200 }
     ]
   },
+
   {
     "image": "https://play-lh.googleusercontent.com/zMLXsAJdXggqSSgJmaMTEP4BNfwrNEVbA5aDh9oHLSumCzMJA8NAOy-WW8nbj2TP84bWGSOPUKeHGUaTuRrDBA=w240-h480-rw",
     "title": "SecureVault",
     "companyName": "CyberSafe Labs",
     "id": 13,
-    "description": "Protect your passwords, files, and digital identity with military-grade encryption.",
+    "description": "SecureVault protects your digital identity through advanced encryption technology. Store passwords, sensitive documents, photos, and private notes in a security-hardened vault that only you can access. With biometric unlocking, auto-fill support, and encrypted cloud backup, SecureVault ensures your data remains safe even if your device is lost. The app includes breach alerts, password strength analysis, and secure sharing options. For anyone concerned about privacy, SecureVault provides peace of mind.",
     "size": 52,
     "reviews": 8700,
     "ratingAvg": 4.5,
-    "downloads": 1250000,
+    "downloads": 43561,
     "ratings": [
       { "name": "1 star", "count": 400 },
       { "name": "2 star", "count": 600 },
@@ -233,16 +242,17 @@
       { "name": "5 star", "count": 4300 }
     ]
   },
+
   {
     "image": "https://play-lh.googleusercontent.com/_KGljQrkYPlNKVQlfFNFGOQxGb0VP5GbJ6_RjT422w1NUa4uxWJupFyn3e2u_AuF5X37=w240-h480-rw",
     "title": "CookBookie",
     "companyName": "HomeTaste Inc.",
     "id": 14,
-    "description": "Discover recipes, meal plans, and cooking tips from world-class chefs and food lovers.",
+    "description": "CookBookie is a delightful cooking companion for food lovers who enjoy experimenting with new recipes. Explore meals from around the world, discover step-by-step instructions, and save your favorite dishes for easy access. The app includes personalized meal planning, ingredient substitution tips, grocery lists, and nutrition details. Whether you're a beginner learning basic kitchen skills or an experienced home chef exploring international cuisines, CookBookie offers inspiration for every meal.",
     "size": 69,
     "reviews": 19780,
     "ratingAvg": 4.3,
-    "downloads": 2600000,
+    "downloads": 76450,
     "ratings": [
       { "name": "1 star", "count": 900 },
       { "name": "2 star", "count": 1100 },
@@ -251,16 +261,17 @@
       { "name": "5 star", "count": 8680 }
     ]
   },
+
   {
     "image": "https://play-lh.googleusercontent.com/ewf9oEDvVIQ6fX6FeDwXpOBDaOrDrTzey3RRdhzZBx0SEN4hsvujlAHLlpvQNL6lA2A=w240-h480-rw",
     "title": "PhotoSnap Studio",
     "companyName": "PixelWave Labs",
     "id": 15,
-    "description": "A creative photo editing and sharing app offering AI-based filters, retouch tools, and community galleries.",
+    "description": "PhotoSnap Studio is a creative editing platform that blends advanced AI tools with professional-grade filters. Retouch portraits, remove backgrounds, enhance lighting, apply artistic effects, and share your creations instantly. The app includes community galleries, editing presets, layered adjustments, and one-tap beautification options. Whether you're a casual creator or a digital artist, PhotoSnap Studio makes powerful editing accessible to everyone.",
     "size": 62,
     "reviews": 18421,
     "ratingAvg": 4.7,
-    "downloads": 2400000,
+    "downloads": 62794,
     "ratings": [
       { "name": "1 star", "count": 600 },
       { "name": "2 star", "count": 800 },
