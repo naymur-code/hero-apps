@@ -16,12 +16,13 @@ const addItem = (id) => {
   } else {
     items.push(id);
     const newItem = JSON.stringify(items);
-    localStorage.setItem("selectApps", newItem);
     Swal.fire({
-      title: "Install",
+      title: "Installed",
       icon: "success",
       draggable: true,
     });
+    localStorage.setItem("selectApps", newItem);
+
   }
 };
 
@@ -29,9 +30,14 @@ const removeItem = (id) => {
   const allItems = getItems();
   const items = allItems.filter((item) => item !== id);
   const newItems = JSON.stringify(items);
+    Swal.fire({
+      title: "Uninstalled",
+      icon: "error",
+      draggable: true,
+    });
+
   localStorage.setItem("selectApps", newItems);
 
-  console.log(id, newItems);
 };
 
 export { getItems, addItem, removeItem };

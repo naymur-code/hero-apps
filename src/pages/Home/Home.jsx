@@ -9,8 +9,13 @@ const Home = () => {
   return (
     <div>
       <Hero></Hero>
-      <Suspense fallback={<div className="flex justify-center p-5"><span className="loading loading-bars loading-xl"></span>
-</div>}>
+      <Suspense
+        fallback={
+          <div className="flex justify-center p-5">
+            <span className="loading loading-bars loading-xl"></span>
+          </div>
+        }
+      >
         <TrendingApps appsPromise={appsPromise}></TrendingApps>
       </Suspense>
     </div>

@@ -12,7 +12,8 @@ const AppDetails = () => {
 
   const selectApp = apps.find((app) => app.id === id);
 
-  const { image, title, downloads, ratingAvg, description,reviews } = selectApp;
+  const { image, title, downloads, ratingAvg, description, reviews } =
+    selectApp;
 
   const handleInstall = () => {
     addItem(selectApp.id);
@@ -62,7 +63,8 @@ const AppDetails = () => {
             class="btn btn-success my-5 text-white"
             disabled={disable}
           >
-            Install
+            {disable?'Installed':'Install Now'}
+            
           </button>
         </div>
       </div>

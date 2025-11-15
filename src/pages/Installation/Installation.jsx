@@ -5,6 +5,7 @@ import { getItems, removeItem } from "../../utility/AddToLS";
 
 const Installation = () => {
   const [selectApps, setSelectApps] = useState([]);
+
   const apps = useLoaderData();
   useEffect(() => {
     const selectId = getItems();
@@ -15,9 +16,23 @@ const Installation = () => {
   const handleUninstall = (id) => {
     const apps = selectApps.filter((app) => app.id !== id);
     setSelectApps(apps);
-  removeItem(id)
+    removeItem(id);
   };
-  
+
+  const handleSort = (e) => {
+    if (e.target.value === "Hight-Low") {
+      const sortByPage = [...selectApps].sort(
+        (a, b) => b.downloads - a.downloads
+      ); // High → Low
+      setSelectApps(sortByPage);
+    }
+    if (e.target.value === "Low-Hight") {
+      const sortByPage = [...selectApps].sort(
+        (a, b) => a.downloads - b.downloads
+      ); // High → Low
+      setSelectApps(sortByPage);
+    }
+  };
 
   return (
     <div>
@@ -31,11 +46,14 @@ const Installation = () => {
         <h3 className="font-bold md:text-2xl text-xl">
           ({selectApps.length}) Apps Found
         </h3>
-        <select defaultValue="Sort By Size" className="select select-auto">
+        <select
+          onClick={handleSort}
+          defaultValue="Sort By Size"
+          className="select select-auto"
+        >
           <option disabled={false}>Sort By Size</option>
-          <option>VScode</option>
-          <option>VScode fork</option>
-          <option>Another VScode fork</option>
+          <option>Low-Hight</option>
+          <option>Hight-Low</option>
         </select>
       </div>
       <div className="space-y-5 mb-20">
