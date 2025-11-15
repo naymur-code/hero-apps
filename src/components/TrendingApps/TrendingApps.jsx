@@ -1,10 +1,11 @@
 import { ArrowDownToLine, Star } from "lucide-react";
-import React from "react";
+import React, { use } from "react";
 import Card from "../Card/Card";
 import { Link } from "react-router";
 
-const TrendingApps = ({ apps }) => {
-  const allApps = apps.slice(0, 8);
+const TrendingApps = ({ appsPromise }) => {
+  const appsData = use(appsPromise);
+  const allApps = appsData.slice(0, 8);
   return (
     <div className="md:my-20 my-10">
       <div className="text-center p-5 ">

@@ -1,7 +1,17 @@
-import React from "react";
+import React, { useEffect, useState } from "react";
 import InstallApp from "../../components/InstallApp/InstallApp";
+import { useLoaderData } from "react-router";
+import { getItems } from "../../utility/AddToLS";
 
 const Installation = () => {
+  const [selectApps,setSelectApps]=useState([]);
+  const apps=useLoaderData()
+  useEffect(()=>{
+  const selectId=getItems()
+  const selectApp=apps.filter((i)=>selectId.includes(i.id))
+  setSelectApps(selectApp)  
+
+  },[])
   return (
     <div>
       <div className="text-center p-5 my-10 ">
@@ -20,9 +30,8 @@ const Installation = () => {
         </select>
       </div>
       <div className="space-y-5 mb-20">
-        <InstallApp></InstallApp>
-        <InstallApp></InstallApp>
-        <InstallApp></InstallApp>
+        {selectApps.map(app=><InstallApp app={app} key={app.id}></InstallApp>)}
+    
       </div>
     </div>
   );
